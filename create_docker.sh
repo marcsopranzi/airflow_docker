@@ -1,0 +1,1 @@
+docker build -t build_linux_airflow .
