@@ -1,4 +1,4 @@
-# Airflow ETL: Local running version of Airflow with Postgres
+# Airflow ETL: Airflow and Postgres with docker images.
 
 This is an ETL running mostly out of the box with docker files. This ETL will load data from [NYC open data](https://opendata.cityofnewyork.us/data/#datasetscategory) and insert into a Postgres DB. To run it you need an .env file with the configuration for db name, login details and the folders dags, logs and plugins.
 
